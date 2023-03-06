@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:'Inter', sans-serif;
+}
+
+:root{
+    --cor-titulo:#101828;
+    --cor-paragrafos:#667085;
+    --cor-detalhes:#8E2424;
+    --cor-fundo:#FFFFFF;
+
+}
+
+.cabecalho{
+    display:flex;
+    justify-content:start;
+    align-items:center;
+    gap:310px;
+    margin:2% 10%;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap:100px;
+}
+
+.cabecalho-menu-navegacao{
+    display: flex;
+    gap: 30px;
+    font-size: 1em;
+    font-weight: 400;
+    color: var(--cor-paragrafos);
+    cursor:pointer;
+}
+
+.cabecalho-botoes{
+    display:flex;
+    gap:30px;
+    
+}
+
+.cabecalho-botoes-entrar{
+    border:none;
+    background-color:var(--cor-fundo);
+    color:var(--cor-paragrafos);
+    font-size:1em;
+    font-weight:400;
+    cursor:pointer;
+}
+
+.cabecalho-botoes-cadastrar{
+    padding:6px 12px;
+    background-color:var(--cor-detalhes);
+    border:none;
+    border-radius:7px;
+    font-size:1em;
+    font-weight:400;
+    color:var(--cor-fundo);
+    cursor:pointer;
+}
+
+.cabecalho-menu-navegacao-item:hover, .cabecalho-botoes-entrar:hover,.cabecalho-botoes-cadastrar:hover{
+    transform:scale(1.1);
+}
