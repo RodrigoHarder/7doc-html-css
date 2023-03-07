@@ -12,6 +12,7 @@
     --cor-paragrafos:#667085;
     --cor-detalhes:#8E2424;
     --cor-fundo:#FFFFFF;
+    --cor-vagas:#F9F4F4;
 
 }
 
@@ -76,7 +77,7 @@ body{
 }
 
 .primeira-secao{
-    margin: 96px 0;
+    padding: 96px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -109,15 +110,14 @@ body{
 .segunda-secao{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    margin-bottom: 96px;
-    padding: 0 50px;
     gap:32px;
+    padding-bottom:96px
 }
 
 .cartao{
     display: grid;
     gap: 10px;
+    padding: 0 50px;
 }
 
 .cartao-titulo{
@@ -136,4 +136,40 @@ body{
     font-size: 1rem;
     font-weight: 400;
     color:var(--cor-paragrafos);
+}
+
+.terceira-secao{
+    padding:0 64px 50px;
+}
+
+.texto{
+    padding-top: 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.texto-vagas{
+    font-size:1.25rem;
+    font-weight: 500;
+    color:var(--cor-detalhes);
+    background-color: var(--cor-vagas);
+}
+
+.texto-titulo{
+    font-size: 2.75rem;
+    font-weight: 600;
+    color:var(--cor-titulo);
+}
+
+.texto-subtitulo{
+    font-size: 1.875rem;
+    font-weight: 400;
+    color: var(--cor-paragrafos);
+}
+
+.imagem-banner{
+    margin-top:64px;
 }
