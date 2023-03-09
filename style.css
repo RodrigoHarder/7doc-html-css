@@ -13,6 +13,7 @@
     --cor-detalhes:#8E2424;
     --cor-fundo:#FFFFFF;
     --cor-vagas:#F9F4F4;
+    --cor-borda: #EAECF0;
 
 }
 
@@ -172,4 +173,50 @@ body{
 
 .imagem-banner{
     margin-top:64px;
+}
+
+.quarta-secao{
+    width:768px;
+    margin:0 300px;
+    padding-bottom: 96px;
+}
+
+.conteudo-design-titulo{
+    margin-bottom:32px;
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--cor-titulo);
+}
+
+.funcao{
+    margin-bottom: 20px;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    border: 1px solid var(--cor-borda);
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.titulo-secao{
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--cor-titulo);
+}
+
+.secao-infos{
+    display:flex;
+    flex-direction: row;
+    gap:20px;
+}
+
+.secao-infos-texto{
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--cor-paragrafos);
+}
+
+.parte-software{
+    margin-top: 96px;
+
 }
