@@ -14,7 +14,7 @@
     --cor-fundo:#FFFFFF;
     --cor-vagas:#F9F4F4;
     --cor-borda: #EAECF0;
-
+    --cor-rodape-background:#F9FAFB;
 }
 
 body{
@@ -281,4 +281,26 @@ body{
     color:var(--cor-paragrafos);
 }
 
+.rodape{
+    background-color:var(--cor-rodape-background);
+    padding:96px 0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:32px;
+}
 
+.rodape-oportunidades-preenchimento{
+    display:flex;
+    gap:32px;
+    align-items: center;
+}
+
+.input-email{
+    width:360px;
+    border-radius: 8px;
+    font-size: 24px;
+    padding:8px;
+    border: 1px solid var(--cor-paragrafos);
+}
