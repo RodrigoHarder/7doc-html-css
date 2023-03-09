@@ -54,7 +54,6 @@ body{
 .botoes{
     display:flex;
     gap:30px;
-    cursor:pointer;
 }
 
 .botoes-entrar{
@@ -63,6 +62,7 @@ body{
     color:var(--cor-paragrafos);
     font-size:1rem;
     font-weight:var(--medium);
+    cursor:pointer;
 }
 
 .botoes-cadastrar{
@@ -73,6 +73,7 @@ body{
     color:var(--cor-fundo);
     font-size:1rem;
     font-weight:var(--medium);
+    cursor:pointer;
 
 }
 
