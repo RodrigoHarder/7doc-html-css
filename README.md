@@ -34,12 +34,12 @@ O resultado final dos projetos pode ser visto no vídeo abaixo.
 1. Clonar o repositório
 
 ```
-git clone https://github.com/RodrigoHarder/7doc-programacao.git
+git clone https://github.com/RodrigoHarder/7doc-html-css.git
 ```
-2. Localizar e abrir a pasta *7doc-programacao*
+2. Localizar e abrir a pasta *7doc-html-css*
 
 ```
-cd 7doc-programacao
+cd 7doc-html-css
 ```
 
 ## **Tecnologias usadas**
